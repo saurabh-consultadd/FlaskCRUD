@@ -5,6 +5,7 @@ env*/
 __pycache__/
 instance/
 # dist/
+.DS_Store/
 # .coverage*
 # htmlcov/
 # .tox/
