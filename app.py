@@ -21,6 +21,19 @@ def get_products():
         "quantity": product.quantity
     } for product in products])
 
+@app.route("/showProduct/<int:id>", methods=["GET"])
+def get_product_by_id(id):
+    product = Product.query.get(id)
+    if product:
+        return jsonify({
+            "id": product.id,
+            "name": product.name,
+            "price": product.price,
+            "quantity": product.quantity
+        })
+    else:
+        return jsonify({"message": "Product not found"}), 404
+
 @app.route("/addProduct", methods=["POST"])
 def create_product():
     data = request.json
