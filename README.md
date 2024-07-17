@@ -19,35 +19,41 @@ This is a Flask based application to perform CRUD operations. It is basically a 
 <br/>
 
 # CRUD Operations
-## 1. Add Product
+## 1. Add User
 - Method: POST
-- EndPoint: /addProduct
+- EndPoint: /users
 - Screenshot:
-<img width="1008" alt="Screenshot 2024-07-17 at 8 48 06 AM" src="https://github.com/user-attachments/assets/89184127-0f7f-42c6-bd14-9a7b5f3965ee">
+<img width="1014" alt="Screenshot 2024-07-17 at 7 13 29 PM" src="https://github.com/user-attachments/assets/dc341ab3-3640-4152-964c-430761c29d79">
 
 <br/>
 
-## 2. Show Product
+## 2. Get User
 - Method: GET
-- EndPoint: /showProduct
+- EndPoint: /users
 - Screenshot:
-<img width="1009" alt="Screenshot 2024-07-17 at 8 49 35 AM" src="https://github.com/user-attachments/assets/11969909-8708-4395-a2c1-6a55a264bc64">
+<img width="1007" alt="Screenshot 2024-07-17 at 7 15 29 PM" src="https://github.com/user-attachments/assets/0df806a5-699e-4fee-8605-c37673adc1a9">
 
 <br/>
 
-## 3. Edit Product
+## 3. Get User By ID
+- Method: GET
+- EndPoint: /users/{id}
+- Screenshot:
+<img width="1012" alt="Screenshot 2024-07-17 at 7 20 29 PM" src="https://github.com/user-attachments/assets/bc456c8c-d7b6-4753-aec5-fcf1c180031f">
+
+<br/>
+
+## 4. Edit User
 - Method: PUT
-- EndPoint: /updateProduct/{id}
+- EndPoint: /users/{id}
 - Screenshot:
-<img width="1013" alt="Screenshot 2024-07-17 at 8 51 06 AM" src="https://github.com/user-attachments/assets/4103fbde-274e-4403-b924-0273976ee10a">
+<img width="1012" alt="Screenshot 2024-07-17 at 7 16 06 PM" src="https://github.com/user-attachments/assets/3287bb28-73f7-47e7-8738-9d72ccb53d09">
 
 <br/>
 
-## 4. Delete Product
+## 5. Delete User
 - Method: DELETE
-- EndPoint: /deleteProduct/{id}
+- EndPoint: /users/{id}
 - Screenshot:
-<img width="1019" alt="Screenshot 2024-07-17 at 8 51 44 AM" src="https://github.com/user-attachments/assets/6e9af0e9-eb0f-49c7-b802-61828fa308de">
-
-
+<img width="1016" alt="Screenshot 2024-07-17 at 7 16 31 PM" src="https://github.com/user-attachments/assets/b9c2d3b6-9566-4d89-89c7-9fdb0ecb9e2a">
 
